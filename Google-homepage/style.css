@@ -1,0 +1,243 @@
+.header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 8px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+
+  .panel {
+    text-align: center;
+}
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    float: right;
+    margin-right: 3px;
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 100px;
+    margin-top: 70px;
+  }
+
+  .google-logo {
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+  }
+  
+  .search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 40px;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    padding-right: 15px;
+    margin-bottom:5px;
+  }
+  
+  .search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+    
+  }
+  
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+  }
+  
+
+  .input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    width: 480px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+  }
+  
+  .googlesearch {
+    margin: 20px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border : 1px solid #f2f2f2;
+    height : 36px;
+    font-size : 14px;
+    color: #5f6368;
+    background-color:#f7f9fa;
+    border-radius : 4px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    height : 36px;
+    font-size : 14px;
+    border : 1px solid #f2f2f2;
+    color: #5f6368;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .feelinglucky:hover {
+    box-shadow: 1px 1px rgba(0,0,0,0.24), 0.2px 0.2px 0.2px 0.2px rgba(0,0,0,0.19);
+
+  }
+
+  .googlesearch:hover {
+    box-shadow: 1px 1px rgba(0,0,0,0.24), 0.2px 0.2px 0.2px 0.2px rgba(0,0,0,0.19);
+
+  }
+  
+  .voice-logo {
+    width: 25px;
+  }
+  .keyboard{
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 20px;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .footerli {
+    float: left;
+    list-style: none;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+
+  #profilepic {
+    margin-top:1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+
+  #profilepic:hover {
+    opacity: 1;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0), 8px 2px 5px 10px rgba(250, 18, 18, 0);
+
+  }
+
+  
+  .apps-button{
+    display: inline-block;
+    opacity: 1;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  .apps-button:hover{
+    opacity: 0.5;
+    width:18px;
+    height:18px;
+    background-color:rgb(185, 183, 183);
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0), 8px 2px 5px 10px rgba(250, 18, 18, 0);
+
+  }
